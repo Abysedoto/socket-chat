@@ -70,6 +70,7 @@ const ChatRoom = (props) => {
         style={{
           fill: "white",
         }}
+        height={300}
         headerStyle={{
           backgroundColor: "#272c33",
           border: "0",
@@ -77,7 +78,7 @@ const ChatRoom = (props) => {
         bodyStyle={{
           backgroundColor: "#272c33",
           color: "white",
-          fontSize: "18px",
+          fontSize: "15px",
         }}
         className="chat-room-drawer"
         getContainer={false}
@@ -99,8 +100,8 @@ const ChatRoom = (props) => {
             <svg
               version="1.0"
               xmlns="http://www.w3.org/2000/svg"
-              width="30px"
-              height="30px"
+              width="24px"
+              height="24px"
               viewBox="0 0 512.000000 512.000000"
               preserveAspectRatio="xMidYMid meet"
             >
@@ -170,8 +171,8 @@ const ChatRoom = (props) => {
                   <svg
                     version="1.0"
                     xmlns="http://www.w3.org/2000/svg"
-                    width="30px"
-                    height="20px"
+                    width="20px"
+                    height="15px"
                     viewBox="0 0 512.000000 512.000000"
                     preserveAspectRatio="xMidYMid meet"
                   >
@@ -200,6 +201,7 @@ const ChatRoom = (props) => {
             sx={{
               "& label.Mui-focused": {
                 color: "#0C897A",
+                fontSize: "14px",
               },
               "& .MuiInput-underline:after": {
                 borderBottomColor: "yellow",
@@ -207,6 +209,7 @@ const ChatRoom = (props) => {
               "& .MuiOutlinedInput-root": {
                 color: "white",
                 backgroundColor: "#272c33",
+                fontSize: "14px",
                 "& fieldset": {
                   borderColor: "#0C897A",
                 },
@@ -218,6 +221,7 @@ const ChatRoom = (props) => {
                 },
                 "& placeholder": {
                   color: "white",
+                  fontSize: "14px",
                 },
               },
             }}
