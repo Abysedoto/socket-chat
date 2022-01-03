@@ -209,7 +209,7 @@
   padding: 7px 14px;
   margin: 12px;
   word-wrap: break-word;
-  align-self: end;
+  align-self: flex-end;
 }
 .chat-room-my-message-name {
   color: rgb(223, 223, 223);
